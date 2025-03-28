@@ -1,0 +1,15 @@
+/*Hashtable是一种以键值对的形式存储数据的集合(key=>value)
+键值对存储：每个键都是唯一的，与一个值相关联。
+哈希算法：通过键的哈希码定位数据存储位置，查找和插入操作的平均时间复杂度为 O(1)。
+动态调整容量：当哈希表中元素数目超过容量时，表会动态扩展并重新分配存储。
+无序存储：键值对的存储顺序与插入顺序无关，由哈希码决定。*/
+using System
+using SystemCollections;
+namespace CollectionApplication{
+  class Program{
+    static void main(string[] args){
+      Hashtable ht = new Hashatable();
+      
+}
+}
+}
